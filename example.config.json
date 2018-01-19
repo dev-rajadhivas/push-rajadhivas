@@ -1,0 +1,9 @@
+{
+    "webPort": 8100,
+
+    "mongodbUrl": "mongodb://localhost/appraja_db",
+
+    "gcm": {
+         "apiKey": "AIzaSyCg_39V_5MQ0CmTBrco9CEQYlLwgCNot9U"
+    }
+}
