@@ -27,3 +27,90 @@ ERROR: ValidationError: Validator "required" failed for path token with value `u
 ERROR: Error: failed to connect to [localhost:27017]
 Listening on port 8100...
 Listening on port 8100...
+You must provide a configuration file.
+
+  Usage: pushserver [options]
+
+  Options:
+
+    -h, --help                      output usage information
+    -V, --version                   output the version number
+    -c, --config <configPath>       Path to config file
+    -o, --override [overrideValue]  Overrides a config value. [overrideValue] should be of the form key=value or key.subKey=value. If the value begins with process.env, it is evaluated.
+
+Listening on port 8100...
+Listening on port 8100...
+Listening on port 8100...
+Listening on port 8100...
+Listening on port 8100...
+You must provide a configuration file.
+
+  Usage: pushserver [options]
+
+  Options:
+
+    -h, --help                      output usage information
+    -V, --version                   output the version number
+    -c, --config <configPath>       Path to config file
+    -o, --override [overrideValue]  Overrides a config value. [overrideValue] should be of the form key=value or key.subKey=value. If the value begins with process.env, it is evaluated.
+
+You must provide a configuration file.
+
+  Usage: pushserver [options]
+
+  Options:
+
+    -h, --help                      output usage information
+    -V, --version                   output the version number
+    -c, --config <configPath>       Path to config file
+    -o, --override [overrideValue]  Overrides a config value. [overrideValue] should be of the form key=value or key.subKey=value. If the value begins with process.env, it is evaluated.
+
+Listening on port 8100...
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8100
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1262:14)
+    at listen (net.js:1298:10)
+    at Server.listen (net.js:1394:5)
+    at Function.app.listen (/usr/lib/node_modules/node-pushserver/node_modules/express/lib/application.js:535:24)
+    at Object.exports.start (/usr/lib/node_modules/node-pushserver/lib/Web.js:146:9)
+    at Object.<anonymous> (/usr/lib/node_modules/node-pushserver/bin/pushserver.js:64:5)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+Listening on port 8100...
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8100
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1262:14)
+    at listen (net.js:1298:10)
+    at Server.listen (net.js:1394:5)
+    at Function.app.listen (/usr/lib/node_modules/node-pushserver/node_modules/express/lib/application.js:535:24)
+    at Object.exports.start (/usr/lib/node_modules/node-pushserver/lib/Web.js:146:9)
+    at Object.<anonymous> (/usr/lib/node_modules/node-pushserver/bin/pushserver.js:64:5)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+Listening on port 8100...
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8100
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1262:14)
+    at listen (net.js:1298:10)
+    at Server.listen (net.js:1394:5)
+    at Function.app.listen (/usr/lib/node_modules/node-pushserver/node_modules/express/lib/application.js:535:24)
+    at Object.exports.start (/usr/lib/node_modules/node-pushserver/lib/Web.js:146:9)
+    at Object.<anonymous> (/usr/lib/node_modules/node-pushserver/bin/pushserver.js:64:5)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+Listening on port 8100...
